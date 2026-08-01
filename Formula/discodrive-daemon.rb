@@ -1,28 +1,28 @@
 class DiscodriveDaemon < Formula
   desc "Headless sync daemon for the DiscoDrive personal cloud"
   homepage "https://github.com/kosmosoid/discodrive-apps"
-  version "0.0.3"
+  version "0.0.4"
   license "PolyForm-Noncommercial-1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.3/discodrive-daemon-darwin-arm64.tar.gz"
-      sha256 "8c2d58dea918e886708235bc9175c88b77fb952797b49a69794c82472f002081"
+      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.4/discodrive-daemon-darwin-arm64.tar.gz"
+      sha256 "2724e34e13878a1ab583904032065f11d047e45bde0a12efc07faac3e281f87c"
     end
     on_intel do
-      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.3/discodrive-daemon-darwin-amd64.tar.gz"
-      sha256 "82c937dba748a59c4830ee1c2e509b210bb34b9fda36bef208f8076ef05f4c37"
+      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.4/discodrive-daemon-darwin-amd64.tar.gz"
+      sha256 "d0d1dcf01336ef6b9f3f3a25aab68579b10deb45d1bd8c95e1396d81e734dc26"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.3/discodrive-daemon-linux-arm64.tar.gz"
-      sha256 "47e337d4edbed17538278cf21ad1ba4863075c5e0e26366b0f19e030c5507aac"
+      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.4/discodrive-daemon-linux-arm64.tar.gz"
+      sha256 "c69ec9170bc12db650cd13b8b8dca9f64f31e36af5fed713f32d1ceaf31a9dfe"
     end
     on_intel do
-      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.3/discodrive-daemon-linux-amd64.tar.gz"
-      sha256 "4039b81b6c50c968d8f25c2acfcd5cab9e462df1b557e77f12636eedcf88bf94"
+      url "https://github.com/kosmosoid/discodrive-apps/releases/download/v0.0.4/discodrive-daemon-linux-amd64.tar.gz"
+      sha256 "983589d2de31fc44e10b45591c69eff305fc7799833bd6cf5efb40fbfc242312"
     end
   end
 
