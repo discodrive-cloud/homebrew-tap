@@ -4,6 +4,8 @@ class DiscodriveDaemon < Formula
   version "0.0.5"
   license "PolyForm-Noncommercial-1.0.0"
 
+  conflicts_with "discodrive-daemon-tray", because: "both install the discodrive binary"
+
   on_macos do
     on_arm do
       url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-darwin-arm64.tar.gz"
