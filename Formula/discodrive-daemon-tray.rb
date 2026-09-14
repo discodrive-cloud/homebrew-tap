@@ -1,30 +1,30 @@
 class DiscodriveDaemonTray < Formula
   desc "Sync daemon for the DiscoDrive personal cloud, with a menu bar icon"
   homepage "https://github.com/discodrive-cloud/discodrive-apps"
-  version "0.0.5"
+  version "0.0.6"
   license "PolyForm-Noncommercial-1.0.0"
 
   conflicts_with "discodrive-daemon", because: "both install the discodrive binary"
 
   on_macos do
     on_arm do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-darwin-arm64-tray.tar.gz"
-      sha256 "7cbc9d8872520e314f13b0bed16fb4f035387c4595dcea8d5847f706e1fa4571"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-darwin-arm64-tray.tar.gz"
+      sha256 "fdc7c28bf96c1c0fe1c1640e1646b67fbc304f37e91977a3261b10e677753064"
     end
     on_intel do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-darwin-amd64-tray.tar.gz"
-      sha256 "b4624f0b537b5864bf32bc59c89e27cc86f3cf9a81db9a891870dd862529a520"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-darwin-amd64-tray.tar.gz"
+      sha256 "dfdec2d6f67ff114833e4aafb613c4ecd23ca20b2411f05bbee353e10eaa1b77"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-linux-arm64-tray.tar.gz"
-      sha256 "f23199763b46da061bc8d57b0a2adfc323b099dfa64fe38654755c0204b7198c"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-linux-arm64-tray.tar.gz"
+      sha256 "b597b7161f50e6f9d458be14b5b62e0d094f01e0a2c5b6aeb5fd14a0b129f5bf"
     end
     on_intel do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-linux-amd64-tray.tar.gz"
-      sha256 "7729ce693881a0398baf6ea432f8814bc909d41c82967a104189d8e8c6ab738a"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-linux-amd64-tray.tar.gz"
+      sha256 "5672a1049738a23cbdc7e72e6132f47c513bcbccb76cc794ff903071e1617abc"
     end
   end
 

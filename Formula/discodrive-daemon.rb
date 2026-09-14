@@ -1,30 +1,30 @@
 class DiscodriveDaemon < Formula
   desc "Headless sync daemon for the DiscoDrive personal cloud"
   homepage "https://github.com/discodrive-cloud/discodrive-apps"
-  version "0.0.5"
+  version "0.0.6"
   license "PolyForm-Noncommercial-1.0.0"
 
   conflicts_with "discodrive-daemon-tray", because: "both install the discodrive binary"
 
   on_macos do
     on_arm do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-darwin-arm64.tar.gz"
-      sha256 "2eff6f1cbe8fb266ea8046ca98ba597bc1fa4fafa744994b9f96a22e19767895"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-darwin-arm64.tar.gz"
+      sha256 "2b9b71769d81732bb9c697102de8190a033f4ebd113550815ac102fb27f969b7"
     end
     on_intel do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-darwin-amd64.tar.gz"
-      sha256 "88e8ec21cac91c1b22a917523ed1035e6cd50d380c26c46c1629c7b0d6a45800"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-darwin-amd64.tar.gz"
+      sha256 "5353b8024b949e6e14738e693608030500242f5ac7905d55a0dd432d2c139caa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-linux-arm64.tar.gz"
-      sha256 "85480b6ceaa514190db7bd8f8a1813bf2a6316cfcadded16848a601b898138ff"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-linux-arm64.tar.gz"
+      sha256 "c0725a8a78e2eabf521126365a78935a7972ed7e4fa046ac1f7399448997ae30"
     end
     on_intel do
-      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.5/discodrive-daemon-linux-amd64.tar.gz"
-      sha256 "5863cb18a1a92efec753b96cc7cca1ecd22eed9ccd9ed51d322d7f291139bc0a"
+      url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.0.6/discodrive-daemon-linux-amd64.tar.gz"
+      sha256 "68818db7b0a4051d5c9182ebda904a24de250bb778b1a5193fc783f5f29fa629"
     end
   end
 
