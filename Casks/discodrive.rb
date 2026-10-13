@@ -1,10 +1,10 @@
 cask "discodrive" do
-  version "0.0.6"
-  sha256 "d33d1edd1e2823976addd37c4b7efb082a915044668a21113277855ba2f7d7b3"
+  version "0.1.0"
+  sha256 "ce66083919616e45c55a25ed68176aeea2e926b0b46fef8386c8f6c04f0ee54b"
 
   url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v#{version}/DiscoDrive-#{version}-macos.dmg"
   name "DiscoDrive"
-  desc "Desktop client for the DiscoDrive personal cloud"
+  desc "DiscoDrive personal cloud in Finder"
   homepage "https://github.com/discodrive-cloud/discodrive-apps"
 
   livecheck do
@@ -12,10 +12,14 @@ cask "discodrive" do
     strategy :github_latest
   end
 
+  depends_on macos: ">= :sonoma"
+
   app "DiscoDrive.app"
 
   zap trash: [
-    "~/Library/Application Support/discodrive/desktop",
-    "~/Library/LaunchAgents/com.wails.discodrive-wails.plist",
+    "~/Library/Containers/org.discodrive.app",
+    "~/Library/Containers/org.discodrive.app.fileprovider",
+    "~/Library/Containers/org.discodrive.app.fileproviderui",
+    "~/Library/Group Containers/TQD2R45V4P.org.discodrive",
   ]
 end
