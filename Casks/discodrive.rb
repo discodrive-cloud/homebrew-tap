@@ -1,6 +1,6 @@
 cask "discodrive" do
-  version "0.1.0"
-  sha256 "ce66083919616e45c55a25ed68176aeea2e926b0b46fef8386c8f6c04f0ee54b"
+  version "0.1.1"
+  sha256 "18e5a193f663718afac59e64043cb2240c108fac79ebe3fc23b516d82d094d03"
 
   url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v#{version}/DiscoDrive-#{version}-macos.dmg"
   name "DiscoDrive"
