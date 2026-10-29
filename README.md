@@ -1,7 +1,7 @@
 # DiscoDrive Homebrew Tap
 
 ```sh
-brew tap kosmosoid/tap
+brew tap discodrive-cloud/tap
 brew install discodrive-daemon
 ```
 
@@ -14,4 +14,4 @@ discodrive install    # or install as a login service
 ```
 
 Formulae here are updated automatically by the
-[discodrive-apps](https://github.com/kosmosoid/discodrive-apps) release workflow.
+[discodrive-apps](https://github.com/discodrive-cloud/discodrive-apps) release workflow.
