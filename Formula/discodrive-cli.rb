@@ -1,28 +1,28 @@
 class DiscodriveCli < Formula
   desc "DiscoDrive from the terminal and inside your AI assistant (dd-cli, dd-mcp)"
   homepage "https://github.com/discodrive-cloud/discodrive-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "PolyForm-Noncommercial-1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.0/discodrive-cli-0.1.0-darwin-arm64.tar.gz"
-      sha256 "a062ad7aca11ec49d5f560b1a82b79bce09c2f5feee819b31f988cbaf3b61a3b"
+      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.1/discodrive-cli-0.1.1-darwin-arm64.tar.gz"
+      sha256 "03eb294a45691d2a29cb5bad283abfb92b618ee19762c974ab9b035505029e22"
     end
     on_intel do
-      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.0/discodrive-cli-0.1.0-darwin-amd64.tar.gz"
-      sha256 "e4c3b3a66aa1d49a77991731f43b0fde1176d1b618919a79f071d9a1ed372366"
+      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.1/discodrive-cli-0.1.1-darwin-amd64.tar.gz"
+      sha256 "1c44b25c4b648b8191d39721158a20d19ab2d8c2b26361d2315b9adfef392bf9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.0/discodrive-cli-0.1.0-linux-arm64.tar.gz"
-      sha256 "d4564f003d6eeeb1a3da169854474f4fa77e422a48ad46a3ca719497c57beeeb"
+      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.1/discodrive-cli-0.1.1-linux-arm64.tar.gz"
+      sha256 "e8b80b843df09ba2d61cbf234a5ff11264c42e835a8534358dda52694513414a"
     end
     on_intel do
-      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.0/discodrive-cli-0.1.0-linux-amd64.tar.gz"
-      sha256 "6b2bec1b981c69ca73541ee98b7b0611c80472dbd42e4eebe8085ef0bd94baee"
+      url "https://github.com/discodrive-cloud/discodrive-cli/releases/download/v0.1.1/discodrive-cli-0.1.1-linux-amd64.tar.gz"
+      sha256 "ed59d06cb586e0dd6ca7953ab5de0f5a3e1f54eda932cc87a60ee87e2ae439a3"
     end
   end
 
