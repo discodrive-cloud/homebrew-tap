@@ -1,18 +1,18 @@
 class DiscodriveDaemon < Formula
   desc "Headless sync daemon for the DiscoDrive personal cloud"
   homepage "https://github.com/discodrive-cloud/discodrive-apps"
-  version "0.1.1"
+  version "0.1.7"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on :linux
 
   on_arm do
-    url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.1.1/discodrive-daemon-linux-arm64.tar.gz"
-    sha256 "52c5101aa987a0cbde9d5b8f54b2d57ddce6ea0b8937f4eeab22a1ee3531c0be"
+    url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.1.7/discodrive-daemon-linux-arm64.tar.gz"
+    sha256 "541aba698646cb12749e08a3b7c29ad52cca06125e8c6ab6e7d65fc2325af0ec"
   end
   on_intel do
-    url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.1.1/discodrive-daemon-linux-amd64.tar.gz"
-    sha256 "1a544e1ebc400163db10cb2680d1a2ad2d7fd6a0f03db3624449266ecc97aa21"
+    url "https://github.com/discodrive-cloud/discodrive-apps/releases/download/v0.1.7/discodrive-daemon-linux-amd64.tar.gz"
+    sha256 "91ff9fd1d5cac94efd44b4afd80c21fae40e0d9d4edbcfbf200ee28a960eb16e"
   end
 
   def install
